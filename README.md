@@ -1,3 +1,3 @@
 # recipes_app
 
-<h1 align="center"> :construction: Em Contrução :construction: </h1>
+<h1 align="center"> :construction: Em Construção :construction: </h1>
