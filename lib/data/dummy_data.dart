@@ -52,4 +52,9 @@ const dummyCategories = [
     title: 'Verão',
     color: Colors.teal,
   ),
+  Category(
+    id: 'c11',
+    title: 'Brasileira',
+    color: Colors.yellow,
+  )
 ];
