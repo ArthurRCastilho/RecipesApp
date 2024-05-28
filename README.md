@@ -2,7 +2,8 @@
 Este é um aplicativo no qual seu intuito é mostrar receitas de diferentes categorias.
 
 ### O que eu aprendi neste aplicativo
-....
+Criação de novas telas, apartir de Stack de telas, usando Navigator.of(context).push que é usando para abrir uma nova tela em cima de outra.
+...
 
 <h1 align="center"> :construction: Em Construção :construction: </h1>
 
