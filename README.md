@@ -2,7 +2,7 @@
 Este é um aplicativo no qual seu intuito é mostrar receitas de diferentes categorias.
 
 ### O que eu aprendi neste aplicativo
-Criação de novas telas, criação de novas rotas para telas, Stack de telas com rotas nomeadas, apresentação de imagens a partir de URLs com image.network, como usar Stack para colocar widgets em cima um do outro, voltar a página inicial caso a rota não seja identificada, ListTile, Divider para criar uma linha de divisória simples, TabBar, BottonNavigationBar
+Criação de novas telas, criação de novas rotas para telas, Stack de telas com rotas nomeadas, apresentação de imagens a partir de URLs com image.network, como usar Stack para colocar widgets em cima um do outro, voltar a página inicial caso a rota não seja identificada, ListTile, Divider para criar uma linha de divisória simples, TabBar, BottonNavigationBar, Drawer
 ...
 
 <h1 align="center"> :construction: Em Construção :construction: </h1>
