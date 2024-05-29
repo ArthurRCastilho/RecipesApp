@@ -73,6 +73,7 @@ class MealDetailScreen extends StatelessWidget {
                     children: [
                       ListTile(
                         leading: CircleAvatar(
+                          backgroundColor: Colors.pinkAccent,
                           child: Text('${index + 1}'),
                         ),
                         title: Text(meal.steps[index]),

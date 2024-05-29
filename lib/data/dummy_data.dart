@@ -387,5 +387,31 @@ const DUMMY_MEALS = [
     isVegetarian: true,
     isLactoseFree: true,
   ),
+  Meal(
+    id: 'm11',
+    categories: ['c11', 'c12'],
+    title: 'Sanduiche Natura Fit',
+    imageUrl:
+        'https://blog.gsuplementos.com.br/wp-content/uploads/2024/03/cropped-iStock-499598335-scaled-1.jpg',
+    ingredients: [
+      '2 Fatias de pão integral',
+      '3 colheres de sopa de frango desfiado ou atum',
+      'Creme de Ricoto',
+      'Sal e pimenta',
+      'Vegetais',
+    ],
+    steps: [
+      'Misture o frango ou atum com uma colher de sopa rasa de creme de ricoto para criar o patê fit',
+      'Adicione sal e pimenta a gosto',
+      'Escolha vegetair como alface, tomate, pepino ou cenoura ralada para compor o lanche',
+      'Sirva a receita dentro de duas fatias de pão integral',
+    ],
+    duration: 10,
+    isGlutenFree: true,
+    isLactoseFree: true,
+    isVegan: false,
+    isVegetarian: false,
+    complexity: Complexity.Simple,
+    cost: Cost.Cheap,
+  )
 ];
-
