@@ -6,7 +6,7 @@ Criação de novas telas, criação de novas rotas para telas, Stack de telas co
 
 ### Layout
 
-<img src="./assets/images/HomeScreen.png" alt="HomeScreen" width="270px"> <img src="./assets/images/ScreenFavorite.gif" alt="ScreenFavorite" width="270px"> <img src="./assets/images/SettingsScreen.gif" alt="SettingsScreen" width="270px">
+<img src="./assets/images/Home.gif" alt="HomeScreen" width="270px"> <img src="./assets/images/FavoriteScreen.gif" alt="ScreenFavorite" width="270px"> <img src="./assets/images/SettingsScreen.gif" alt="SettingsScreen" width="270px">
 
 
 ## Como rodar o projeto?
