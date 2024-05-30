@@ -20,6 +20,10 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.amber,
         ),
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          backgroundColor: Colors.pink,
+          splashColor: Colors.amber,
+        ),
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: Colors.amber,
           secondary: Colors.pink,
