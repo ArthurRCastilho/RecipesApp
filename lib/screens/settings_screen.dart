@@ -3,12 +3,23 @@ import 'package:recipes_app/components/main_drawer.dart';
 import '../models/settings.dart';
 
 class SettingsScreen extends StatefulWidget {
+  final Settings settings;
+  final Function(Settings) onSettingsChanged;
+
+  const SettingsScreen(this.settings, this.onSettingsChanged);
+
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  var settings = Settings();
+  late Settings settings;
+
+  @override
+  void initState() {
+    super.initState();
+    settings = widget.settings;
+  }
 
   Widget _createSwitch(
     String title,
@@ -20,7 +31,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
       title: Text(title),
       subtitle: Text(subtitle),
       value: value,
-      onChanged: onChanged,
+      onChanged: (value) {
+        onChanged(value);
+        widget.onSettingsChanged(settings);
+      },
     );
   }
 
@@ -56,15 +70,15 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   (value) => setState(() => settings.isLactoseFree = value),
                 ),
                 _createSwitch(
-                  'Sem Glutén',
+                  'Veganas',
                   'Só exibe refeiçõe Veganas',
                   settings.isVegan,
                   (value) => setState(() => settings.isVegan = value),
                 ),
                 _createSwitch(
-                  'Sem Glutén',
+                  'Vegetarianas',
                   'Só exibe refeiçõe Vegetarianas',
-                  settings.isVegan,
+                  settings.isVegetarian,
                   (value) => setState(() => settings.isVegetarian = value),
                 ),
               ],

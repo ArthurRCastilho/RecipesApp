@@ -1,8 +1,8 @@
 class Settings {
-  late final bool isGlutenFree;
-  late final bool isLactoseFree;
-  late final bool isVegan;
-  late final bool isVegetarian;
+  bool isGlutenFree;
+  bool isLactoseFree;
+  bool isVegan;
+  bool isVegetarian;
 
   Settings({
     this.isGlutenFree = false,

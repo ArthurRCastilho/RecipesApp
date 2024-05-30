@@ -390,7 +390,7 @@ const DUMMY_MEALS = [
   Meal(
     id: 'm11',
     categories: ['c11', 'c12'],
-    title: 'Sanduiche Natura Fit',
+    title: 'Sanduiche Natural Fit',
     imageUrl:
         'https://blog.gsuplementos.com.br/wp-content/uploads/2024/03/cropped-iStock-499598335-scaled-1.jpg',
     ingredients: [
