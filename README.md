@@ -5,7 +5,7 @@ Este é um aplicativo no qual seu intuito é mostrar receitas de diferentes cate
 Criação de novas telas, criação de novas rotas para telas, Stack de telas com rotas nomeadas, apresentação de imagens a partir de URLs com image.network, como usar Stack para colocar widgets em cima um do outro, voltar a página inicial caso a rota não seja identificada, ListTile, Divider para criar uma linha de divisória simples, TabBar, BottonNavigationBar, Drawer e como fazer filtragem de itens de uma lista.<br>
 
 ### Layout
-<img src="" alt="ScreenFixHome" width="270px"> <img src="" alt="DetailsMeals" width="270px"> <img src="" alt="FavoriteFix" width="270px">
+<img src="./assets/images/HomePageFix.png" alt="ScreenFixHome" width="270px"> <img src="./assets/images/DetaislMealsFix.png" alt="DetailsMeals" width="270px"> <img src="./assets/images/FavoriteScreenFix.png" alt="FavoriteFix" width="270px">
 
 #### GIFS
 <img src="./assets/images/Home.gif" alt="HomeScreen" width="270px"> <img src="./assets/images/FavoriteScreen.gif" alt="ScreenFavorite" width="270px"> <img src="./assets/images/SettingsScreen.gif" alt="SettingsScreen" width="270px"><br>
