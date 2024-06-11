@@ -96,4 +96,8 @@ Por fim no seu github faça uma pull request
 - ``Android Studio = Emulador Android``
 - ``iPad = Emulador iPadOS``
 
+<br>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ce959dc-eed5-4d41-85ea-072c5fc38114/deploy-status)](https://app.netlify.com/sites/recipes-app-forstudy/deploys)
+
 <img src="https://github.com/ArthurRCastilho/Fundamentos_Dart/blob/main/img/UdemyImg.png" alt="Logo da Udemy">
