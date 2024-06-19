@@ -34,13 +34,14 @@ E aperte para rodar o seu código, após alguns segundos o programa deve ser abe
 Este projeto foi totalmente feito a partir de um curso da udemy, na qual você pode [clicar aqui](https://www.udemy.com/course/curso-flutter/?couponCode=ST6MT42324) para acessar o curso<br>
 
 Neste projeto contém estruturas de fundamentos de flutter, sendo elas:
- - Stack de telas
- - Rotas nomeadas
- - ListTile
- - TabBar
- - BottonNavigatorBar
- - Drawer
- - Filtro de Itens
+
+- [x] Stack de telas
+- [x] Rotas nomeadas
+- [x] ListTile
+- [x] TabBar
+- [x] BottonNavigatorBar
+- [x] Drawer
+- [x] Filtro de Itens
 
 ## Contribua para o respositorio
 
